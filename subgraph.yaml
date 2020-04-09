@@ -10,7 +10,7 @@ dataSources:
       abi: cToken
     mapping:
       kind: ethereum/events
-      apiVersion: 0.0.3
+      apiVersion: 0.0.4
       language: wasm/assemblyscript
       entities:
         - Token
@@ -37,7 +37,7 @@ dataSources:
       abi: cToken
     mapping:
       kind: ethereum/events
-      apiVersion: 0.0.3
+      apiVersion: 0.0.4
       language: wasm/assemblyscript
       entities:
         - Token
@@ -64,7 +64,7 @@ dataSources:
       abi: cToken
     mapping:
       kind: ethereum/events
-      apiVersion: 0.0.3
+      apiVersion: 0.0.4
       language: wasm/assemblyscript
       entities:
         - Token
@@ -91,7 +91,7 @@ dataSources:
       abi: cToken
     mapping:
       kind: ethereum/events
-      apiVersion: 0.0.3
+      apiVersion: 0.0.4
       language: wasm/assemblyscript
       entities:
         - Token
@@ -118,7 +118,7 @@ dataSources:
       abi: cToken
     mapping:
       kind: ethereum/events
-      apiVersion: 0.0.3
+      apiVersion: 0.0.4
       language: wasm/assemblyscript
       entities:
         - Token
@@ -145,7 +145,7 @@ dataSources:
       abi: cToken
     mapping:
       kind: ethereum/events
-      apiVersion: 0.0.3
+      apiVersion: 0.0.4
       language: wasm/assemblyscript
       entities:
         - Token
@@ -172,7 +172,7 @@ dataSources:
       abi: cToken
     mapping:
       kind: ethereum/events
-      apiVersion: 0.0.3
+      apiVersion: 0.0.4
       language: wasm/assemblyscript
       entities:
         - Token
@@ -199,7 +199,7 @@ dataSources:
       abi: cToken
     mapping:
       kind: ethereum/events
-      apiVersion: 0.0.3
+      apiVersion: 0.0.4
       language: wasm/assemblyscript
       entities:
         - Token

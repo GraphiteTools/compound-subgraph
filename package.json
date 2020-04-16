@@ -1,6 +1,12 @@
 {
   "name": "compound-subgraph",
-  "license": "UNLICENSED",
+  "version": "1.0.0",
+  "description": "Compound Subgraph",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/GraphiteTools/compound-subgraph.git"
+  },
   "scripts": {
     "codegen": "graph codegen",
     "build": "graph build",

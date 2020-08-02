@@ -165,6 +165,33 @@ dataSources:
           file: ./abis/erc20.json
       file: ./src/token.ts
   - kind: ethereum/contract
+    name: cUSDT Token
+    network: mainnet
+    source:
+      address: "0xf650c3d88d12db855b8bf7d11be6c55a4e07dcc9"
+      abi: cToken
+    mapping:
+      kind: ethereum/events
+      apiVersion: 0.0.4
+      language: wasm/assemblyscript
+      entities:
+        - Token
+      eventHandlers:
+        - event: Transfer(indexed address,indexed address,uint256)
+          handler: handleTransfer
+        - event: Borrow(address,uint256,uint256,uint256)
+          handler: handleBorrow
+        - event: RepayBorrow(address,address,uint256,uint256,uint256)
+          handler: handleRepayBorrow
+        - event: LiquidateBorrow(address,address,uint256,address,uint256)
+          handler: handleLiquidateBorrow
+      abis:
+        - name: cToken
+          file: ./abis/cToken.json
+        - name: erc20
+          file: ./abis/erc20.json
+      file: ./src/token.ts
+  - kind: ethereum/contract
     name: cWBTC Token
     network: mainnet
     source:
